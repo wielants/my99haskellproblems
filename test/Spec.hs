@@ -1,2 +1,7 @@
+module Main where
+
+import qualified Problem1Spec as P1
+
 main :: IO ()
-main = putStrLn "Test suite not yet implemented"
+main = do
+   P1.main
